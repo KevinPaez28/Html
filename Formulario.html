@@ -12,7 +12,7 @@
             </div>
 
             <div>
-                <input type="number" step = 1.0  min ="0" max = "20" value="10"  name="Edad" autofocus disabled>
+                <input type="number" step = 1.0  min ="0" max = "10" value="10"  name="Edad" autofocus disabled >
             </div>
 
              <div>
@@ -33,13 +33,15 @@
             </div>
 
             <div>
-                <input type = "Texto">
+                <input type = "text" id="email" name="email" pattern="[a-A-Z0-9._%+-]+@gmail\.com" required>
+
             </div>
 
             <label for Nombre>Ingrese Numero</label>
 
             <div>
-                <input type = "Text" pattern=[0-10] required>
+                <input type="text" id="Numero" name="Numero" placeholder="Escriba su Numero" minlength = "10" required pattern="[0-9]+" id="Numero"  title="Escriba su numero telefonico">
+
             </div>
 
             <div>
